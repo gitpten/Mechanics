@@ -46,6 +46,7 @@ namespace Mechanics
         {
             if (IsColliding(b1, b2))
             {
+                //fsdfadfsddsfgf
                 Vector OO = b1.R - b2.R;
 
                 Vector v0 = b1.V.Projection(OO);
